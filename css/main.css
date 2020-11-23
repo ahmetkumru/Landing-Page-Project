@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+html{
+    font-family: "Open Sans ",sans-serif;
+}
+#navbar{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+
+    height: 70px;
+
+}
+
+#navbar ul{
+    list-style: none;
+    display: flex;
+    align-items: center; 
+}
+#navbar ul li a{
+    padding: 0.7rem;
+
+}
+#navbar ul li a:hover{
+background:white ;
+border-radius: 4px;
+border: 1px solid grey;
+color:#33cc33;
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 0.5px solid grey;
+}
+#home img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+    padding: 1rem 0;
+}
+#home .name{
+    text-align:center;
+    
+}
+#home .name h2{
+    margin-bottom: 1rem;
+}
+#home .name p{
+    opacity: 0.8;
+    font-style: italic;
+}
+#home a {
+    letter-spacing: 0.5px;
+margin-top: 1.25rem;
+background:#33cc33 ;
+ padding: 0.8rem 3rem;  
+ border-radius: 5px;
+ border: 0.5px solid grey;
+}
+ #home a:hover{
+ background:white;
+ color: #33cc33;    
+ border: 0.5px solid grey;
+ }
+ #cv{
+
+     padding: 2rem 2rem;
+     border-bottom: 1px solid gray;
+ }
+ #cv h3{
+     padding: 1rem 0;
+     color:white;
+     background:#33cc33;
+     border-radius: 5px;
+     margin-bottom: 10px;
+     font-size: 1.4rem;
+     font-style: italic;
+ }
+ #cv p{
+     opacity: 0.9;
+     line-height: 1.5rem;
+     letter-spacing: 00.5px;
+     font-style: italic;
+     
+ }
+ #cv h4{
+     width: 200px ;
+    border-radius: 5px;
+     display: inline-block;
+     position: relative;
+     align-self: center;
+  color: white;
+     margin-top: 0.7rem;
+     background-color: #33cc33;
+     font-size: 1rem;
+     padding: 0.5rem 0;
+     font-style: italic;
+
+
+    
+ }
+ #pl{
+    
+     padding: 2em 2em;
+     border-bottom: 1px solid green;
+ }
+ .pls{
+     display: flex;
+     flex-direction: column;
+     padding:1em;
+
+ }
+ .pls .pl-image{
+     border: 3px solid green;
+     border-radius: 5px;
+     
+ }
+ .pls .pl{
+display: flex;
+padding: 0.5rem;
+margin-bottom: 2rem;
+
+ }
+ .pls .pl .making{
+    font-style: italic;
+    font-size: 1rem;
+    padding: 1rem;
+        letter-spacing: 0.5px;
+ }
+
+ .pls .pl .pl-info{
+    margin-left: 2rem;
+    border: 1px solid grey;
+    border-radius: 5px;
+
+}
+.pls .pl .pl-info .description{
+    opacity: 0.8;
+font-style: italic;
+font-size: 1rem;
+padding: 1rem;
+    letter-spacing: 0.5px;
+}
+ #pl h3{
+     font-style: italic;
+     padding: 1rem 0;
+     border-radius: 5px;
+     font-size: 1.4 rem;
+     color: white;
+     margin-bottom: 10px;
+     background: #33cc33;
+    
+     
+   } 
+#pl .pls .pl .pl-info .title{
+    font-size: 1.3rem;
+background: #33cc33;
+height: 30px;
+color: white;
+}
+#contact{
+    color:white;
+    padding: 1rem;
+}
+#contact .contact-form{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control{
+    width: 100%;
+    padding: 0.4rem;
+    font-size:1rem;
+    resize: none;
+    border-radius: 5px;
+}
+#contact .contact-form ul{
+    list-style-type: none;
+    display: flex;
+    margin-top: 2rem;
+    align-self: center;
+    
+}
+#contact .contact-form ul li a{
+padding: 1rem;
+font-size: 2rem;
+}
+#contact .contact-form ul li a:hover{
+    opacity: 0.7;
+}
